@@ -11,5 +11,15 @@ pipeline{
                 
             
         }
+        stage("Empty Stage "){
+            steps {
+
+                script{ echo "Empty stage" }
+            
+            }
+        
+                
+            
+        }
     }
 }
